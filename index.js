@@ -15,7 +15,7 @@ import CartProvider from './app/ui/providers/CartProvider';
      ...DefaultTheme, 
      colors:{ 
          ...DefaultTheme.colors, 
-         primary: '#D80045'
+         primary: '#FF005D'
         } 
  }
 

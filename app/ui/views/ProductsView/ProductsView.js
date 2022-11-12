@@ -11,12 +11,14 @@ const ViewContainer = styled.SafeAreaView`
 const ProductCard = styled(Card)`
 
     margin:7px;
-
+    
 `;
+
 
 export default function ProductsView(props) {
 
     return (
+        
         <ViewContainer>
 
             <Appbar.Header>
@@ -25,9 +27,7 @@ export default function ProductsView(props) {
             </Appbar.Header>
             <ScrollView>
                 <ProductCard>
-
-                </ProductCard>
-                <Card>
+               <Card>
 
                     <Card.Cover 
 
@@ -36,7 +36,7 @@ export default function ProductsView(props) {
                     ></Card.Cover>
 
                     <Card.Title
-                        title={'Sorvetes'}
+                        title={'Sorvete'}
                         right={(props) => <Button>Selecionar</Button>}
                     />
 
@@ -45,10 +45,12 @@ export default function ProductsView(props) {
                     </Card.Content>
 
                 </Card>
-                
-                <ProductCard>
 
                 </ProductCard>
+
+
+                <ProductCard>
+
 
                 <Card>
                     <Card.Cover 
@@ -67,9 +69,11 @@ export default function ProductsView(props) {
                     </Card.Content>
 
                 </Card>
-                <ProductCard>
 
                 </ProductCard>
+
+                <ProductCard>
+
 
                 <Card>
                     <Card.Cover 
@@ -88,6 +92,9 @@ export default function ProductsView(props) {
                     </Card.Content>
 
                 </Card>
+
+                </ProductCard>
+
 
             </ScrollView>
 
